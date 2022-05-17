@@ -1,0 +1,7 @@
+#for big datasets
+data/
+
+#src
+src/data/__pycache__
+
+*__pycache__/

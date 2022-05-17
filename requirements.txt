@@ -1,0 +1,4 @@
+pydicom==2.3.0
+matplotlib==3.5.1
+numpy==1.21.6
+pillow==9.1.0
