@@ -29,7 +29,7 @@ def check_image_laterality(file_name):
 
 def read_dicom_into_image(file_name):
     img = pydicom.read_file(file_name)
-    return bit_Change_from_12_to_8(img.pixel_array)
+    return bit_Change_from_12_to_8(img.pixel_array),img.Columns, img.Rows
 
 def bit_Change_from_12_to_8(array):
     '''matrix must be a numpy array 

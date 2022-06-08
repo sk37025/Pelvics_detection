@@ -1,6 +1,4 @@
 #for big datasets
 data/raw/
-
 #src
-
 *.pyc
